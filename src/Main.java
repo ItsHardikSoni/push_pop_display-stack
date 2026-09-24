@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Student {
+class Operations {
     static int SIZE = 5;
     static int top = -1;
     static int[] stack = new int[SIZE];
@@ -49,13 +49,13 @@ public class Main{
                 case 1:
                     System.out.println("Enter Element: ");
                     int value = input.nextInt();
-                    Student.push(value);
+                    Operations.push(value);
                     break;
                 case 2:
-                    Student.pop();
+                    Operations.pop();
                     break;
                 case 3:
-                    Student.display();
+                    Operations.display();
                     break;
                 case 4:
                     System.out.println("Program exited.\n");
